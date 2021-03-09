@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card, Container, Image, Col, Row, ListGroup } from 'react-bootstrap';
-import livrosTAG from './../Main/livros.json';
+import livrosTAG from '../../database/livros.json';
 import { useParams } from 'react-router-dom';
+import { find } from 'lodash';
 
 /*título do livro,
 - capa,
@@ -13,16 +14,18 @@ import { useParams } from 'react-router-dom';
 - total de avaliações GoodReads.*/
 
 const Details = () => {
-  var { isbn } = useParams();
-  isbn.replace(':', '');
+  const { isbn } = useParams();
+  const [livro, setLivro] = useState({});
+  useEffect(() => {
+    const result = find(livrosTAG.results, (item) => item.isbn == isbn);
+    setLivro(result);
+  });
 
-  const livro = livrosTAG.results.find((item) => (item.isbn = isbn));
-  isbn = 0;
   return (
     <Container fluid>
       <Card className="text-center">
         <Card.Header>
-          <h1>{livro.name}</h1>
+          <h1></h1>
         </Card.Header>
         <Card.Body>
           <Row>
@@ -38,14 +41,10 @@ const Details = () => {
                 }}
               >
                 <ListGroup variant="flush">
-                  <ListGroup.Item>
-                    Data de Edição: {livro.edition}
-                  </ListGroup.Item>
-                  <ListGroup.Item>Curador: {livro.curator} </ListGroup.Item>
+                  <ListGroup.Item>Data de Edição: {livro.isbn}</ListGroup.Item>
+                  <ListGroup.Item>Curador:{livro.curator}</ListGroup.Item>
                   <ListGroup.Item>Páginas: {livro.pages}</ListGroup.Item>
-                  <ListGroup.Item>
-                    Total de Avaliaçõe TAG: {livro.totalRatings}
-                  </ListGroup.Item>
+                  <ListGroup.Item>Total de Avaliaçõe TAG:</ListGroup.Item>
                   <ListGroup.Item>Total de Avaliaçõe GOODREAD:</ListGroup.Item>
                 </ListGroup>
               </Card.Body>

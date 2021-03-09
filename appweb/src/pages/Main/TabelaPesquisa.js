@@ -1,14 +1,55 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Table, Card, Col, Image, Button } from 'react-bootstrap';
-import livrosTag from './livros.json';
 import { Link } from 'react-router-dom';
-import livrosGR from './livrosGR.json';
+import findAVG from '../../utils';
+import livrosTag from '../../database/livros.json';
+
+const meses = {
+  Janeiro: 1,
+  Fevereiro: 2,
+  Março: 3,
+  Abril: 4,
+  Maio: 5,
+  Junho: 6,
+  Julho: 7,
+  Agosto: 8,
+  Setembro: 9,
+  Outubro: 10,
+  Novembro: 11,
+  Dezembro: 12,
+};
+const sortByAno = (anoX, anoY) => {
+  if (anoX < anoY) {
+    return -1;
+  }
+  if (anoX === anoY) {
+    return 0;
+  }
+
+  return 1;
+};
+const sortByMes = (mesX, mesY) => {
+  if (mesX < mesY) {
+    return -1;
+  }
+  if (mesX === mesY) {
+    return 0;
+  }
+
+  return 1;
+};
+
+const livrosOrdenados = livrosTag.results.sort((itemY, itemX) => {
+  const [mesX, anoX] = itemX.edition.split(' de ');
+  const [mesY, anoY] = itemY.edition.split(' de ');
+
+  const resultAno = sortByAno(anoX, anoY);
+  return resultAno === 0 ? sortByMes(meses[mesX], meses[mesY]) : resultAno;
+});
 
 const TabelePesquisa = (props) => {
-  console.log(livrosGR);
-
   const dadosTabela = {
-    title: livrosTag.results.map((item, idx) => (
+    title: livrosOrdenados.map((item, idx) => (
       <tr key={idx}>
         <td key={idx}>
           <div className="mb-1">
@@ -22,13 +63,13 @@ const TabelePesquisa = (props) => {
               <br />
               {`Avaliação TAG: ${(item.totalRatings / item.numRatings).toFixed(
                 2
-              )}/ Avaliação GOODREADS :`}
+              )}/ Avaliação GOODREADS :${findAVG(item.name)}`}
             </Col>
           </div>
           <Button size="lg" variant="info" block>
             <Link
               key={idx}
-              to={'/details/:' + item.isbn}
+              to={'/details/' + item.isbn}
               style={{ textDecoration: 'none', color: 'white' }}
             >
               Detalhes
@@ -39,6 +80,7 @@ const TabelePesquisa = (props) => {
       </tr>
     )),
   };
+
   return (
     <div>
       <Card>

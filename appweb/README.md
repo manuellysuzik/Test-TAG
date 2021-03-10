@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+*RESUMO*
+A Aplicação tem como finalidade exibir em uma tabela, ordenada por data de edição em ordem decrescente ( mais recentes primeiro ), uma comparação da média de avaliação registradas pelo aplicativo da TAG e retiradas do site GoodReads (www.goodreads.com) através da API disponibilizada pela mesma. Também é possível redirecionar o usuário para uma página de Detalhes.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Páginas*
+- Home:
+Exibição da tabela / lista de livros com as médias de avaliação da TAG e GoodReads e o título do livro com suas respectivas datas de primeira edição, escolhidas no formato "mês de ano" e ordenadas por datas mais recentes primeiro. Cada item da tabela é composto por um botão de detalhes que redireciona o usuário para uma página com as informações adicionais do livro escolhido.
+ *REGRA DE NEGÓCIO*
+    1 . A API foi consultada usando o critério da pesquisa por título, levando em consideração os dados do arquivo JSON "livros.json" localizado na pasta src/database. Para melhor perfomace, o resultado da consulta da API foi armazenado em um outro arquivo "livrosGR.json" localizado na mesma pasta, para a consulta dentro da aplicação React.
+    2 . Ao clicar em detalhes, a aplicação envia no endereço o isbn do livro selecionado para ser possível carregar os dados separadamente de cada livro.
 
-## Available Scripts
+- Detalhes:
+Exibição dos detalhes do livro escolhido com as seguintes informações:
 
-In the project directory, you can run:
+- título do livro,
+- capa,
+- autor(a),
+- mês/ano edição,
+- curador(a),
+- número de páginas,
+- total de avaliações TAG
+- total de avaliações GoodReads.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*REGRA DE NEGÓCIO*
+    1 . O componente "Details" recebe o isbn usando a função useParams da biblioteca "react-router-dom". Com essa informação , então, pode consultar dentro de "livros.json" os dados do livro.
+    2 . O total de avaliações da GoodReads está disponível no arquivo "livrosGR.json".

@@ -2,8 +2,8 @@
   {
     "id": 16171,
     "books_count": 115,
-    "ratings_count": 239940,
-    "text_reviews_count": 12212,
+    "ratings_count": 239985,
+    "text_reviews_count": 12214,
     "original_publication_year": 2003,
     "original_publication_month": 9,
     "original_publication_day": 16,
@@ -19,7 +19,26 @@
       "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326935738l/14088._SY75_.jpg"
     }
   },
-  null,
+  {
+    "id": 7833063,
+    "books_count": 10,
+    "ratings_count": 835,
+    "text_reviews_count": 54,
+    "original_publication_year": 1877,
+    "original_publication_month": "",
+    "original_publication_day": "",
+    "average_rating": 4.18,
+    "best_book": {
+      "id": 7640101,
+      "title": "Duas Narrativas Fantásticas: A Dócil e O Sonho de Um Homem Ridículo",
+      "author": {
+        "id": 3137322,
+        "name": "Fyodor Dostoyevsky"
+      },
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+    }
+  },
   {
     "id": 87922,
     "books_count": 6,
@@ -43,8 +62,8 @@
   {
     "id": 4840290,
     "books_count": 1679,
-    "ratings_count": 608935,
-    "text_reviews_count": 18537,
+    "ratings_count": 609185,
+    "text_reviews_count": 18551,
     "original_publication_year": 1922,
     "original_publication_month": "",
     "original_publication_day": "",
@@ -83,15 +102,15 @@
   {
     "id": 4640799,
     "books_count": 837,
-    "ratings_count": 7430472,
-    "text_reviews_count": 117744,
+    "ratings_count": 7434072,
+    "text_reviews_count": 117814,
     "original_publication_year": 1997,
     "original_publication_month": 6,
     "original_publication_day": 26,
     "average_rating": 4.48,
     "best_book": {
       "id": 3,
-      "title": "Harry Potter and the Sorcerer's Stone",
+      "title": "Harry Potter and the Sorcerer's Stone (Harry Potter #1)",
       "author": {
         "id": 1077326,
         "name": "J.K. Rowling"
@@ -100,11 +119,30 @@
       "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY75_.jpg"
     }
   },
-  null,
+  {
+    "id": 1560878,
+    "books_count": 258,
+    "ratings_count": 39346,
+    "text_reviews_count": 4177,
+    "original_publication_year": 1946,
+    "original_publication_month": "",
+    "original_publication_day": "",
+    "average_rating": 4.07,
+    "best_book": {
+      "id": 33800458,
+      "title": "Vida e Proezas de Aléxis Zorbás",
+      "author": {
+        "id": 5668,
+        "name": "Nikos Kazantzakis"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587701725l/33800458._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587701725l/33800458._SX50_.jpg"
+    }
+  },
   {
     "id": 1612436,
     "books_count": 6,
-    "ratings_count": 40384,
+    "ratings_count": 40397,
     "text_reviews_count": 2161,
     "original_publication_year": 1986,
     "original_publication_month": 8,
@@ -124,7 +162,7 @@
   {
     "id": 2305040,
     "books_count": 77,
-    "ratings_count": 20363,
+    "ratings_count": 20368,
     "text_reviews_count": 910,
     "original_publication_year": 1993,
     "original_publication_month": "",
@@ -142,23 +180,23 @@
     }
   },
   {
-    "id": 3355573,
-    "books_count": 227,
-    "ratings_count": 741822,
-    "text_reviews_count": 46811,
-    "original_publication_year": 2006,
-    "original_publication_month": 9,
-    "original_publication_day": 26,
-    "average_rating": 3.97,
+    "id": 1412280,
+    "books_count": 98,
+    "ratings_count": 112327,
+    "text_reviews_count": 8907,
+    "original_publication_year": 2007,
+    "original_publication_month": 2,
+    "original_publication_day": 13,
+    "average_rating": 3.84,
     "best_book": {
-      "id": 6004237,
-      "title": "A Estrada",
+      "id": 2772872,
+      "title": "A Estrada da Noite",
       "author": {
-        "id": 4178,
-        "name": "Cormac McCarthy"
+        "id": 88506,
+        "name": "Joe Hill"
       },
-      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
-      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358258636l/2772872._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358258636l/2772872._SY75_.jpg"
     }
   },
   {
@@ -181,12 +219,50 @@
       "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346429984l/15939955._SX50_.jpg"
     }
   },
-  null,
-  null,
+  {
+    "id": 1527624,
+    "books_count": 39,
+    "ratings_count": 2152,
+    "text_reviews_count": 230,
+    "original_publication_year": 2003,
+    "original_publication_month": "",
+    "original_publication_day": "",
+    "average_rating": 4,
+    "best_book": {
+      "id": 30530518,
+      "title": "A Louca da Casa",
+      "author": {
+        "id": 6630,
+        "name": "Rosa Montero"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465781265l/30530518._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1465781265l/30530518._SX50_.jpg"
+    }
+  },
+  {
+    "id": 2059288,
+    "books_count": 254,
+    "ratings_count": 2838,
+    "text_reviews_count": 115,
+    "original_publication_year": 1883,
+    "original_publication_month": "",
+    "original_publication_day": "",
+    "average_rating": 3.81,
+    "best_book": {
+      "id": 15601731,
+      "title": "Os Tigres de Mompracem (Ciclo dos Piratas da Malásia #1)",
+      "author": {
+        "id": 44810,
+        "name": "Emilio Salgari"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606541829l/15601731._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606541829l/15601731._SY75_.jpg"
+    }
+  },
   {
     "id": 1064574,
     "books_count": 199,
-    "ratings_count": 20164,
+    "ratings_count": 20177,
     "text_reviews_count": 1686,
     "original_publication_year": 1951,
     "original_publication_month": "",
@@ -206,7 +282,7 @@
   {
     "id": 87973,
     "books_count": 9,
-    "ratings_count": 1456,
+    "ratings_count": 1458,
     "text_reviews_count": 53,
     "original_publication_year": 1956,
     "original_publication_month": "",
@@ -225,9 +301,9 @@
   },
   {
     "id": 3389674,
-    "books_count": 287,
-    "ratings_count": 442273,
-    "text_reviews_count": 23798,
+    "books_count": 288,
+    "ratings_count": 443103,
+    "text_reviews_count": 23869,
     "original_publication_year": 1946,
     "original_publication_month": "",
     "original_publication_day": "",
@@ -246,7 +322,7 @@
   {
     "id": 9254066,
     "books_count": 11,
-    "ratings_count": 795,
+    "ratings_count": 796,
     "text_reviews_count": 62,
     "original_publication_year": 2009,
     "original_publication_month": "",
@@ -265,9 +341,9 @@
   },
   {
     "id": 1028281,
-    "books_count": 443,
-    "ratings_count": 59073,
-    "text_reviews_count": 2110,
+    "books_count": 2,
+    "ratings_count": 59097,
+    "text_reviews_count": 2113,
     "original_publication_year": 1830,
     "original_publication_month": 11,
     "original_publication_day": 13,
@@ -283,12 +359,31 @@
       "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1350399365l/3436408._SY75_.jpg"
     }
   },
-  null,
+  {
+    "id": 40842571,
+    "books_count": 90,
+    "ratings_count": 70762,
+    "text_reviews_count": 6729,
+    "original_publication_year": 2014,
+    "original_publication_month": 9,
+    "original_publication_day": 2,
+    "average_rating": 3.7,
+    "best_book": {
+      "id": 23432927,
+      "title": "A Balada de Adam Henry",
+      "author": {
+        "id": 2408,
+        "name": "Ian McEwan"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413934731l/23432927._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413934731l/23432927._SY75_.jpg"
+    }
+  },
   {
     "id": 57566471,
     "books_count": 108,
-    "ratings_count": 207607,
-    "text_reviews_count": 18972,
+    "ratings_count": 207928,
+    "text_reviews_count": 19003,
     "original_publication_year": 2018,
     "original_publication_month": 5,
     "original_publication_day": 22,
@@ -306,12 +401,12 @@
   },
   {
     "id": 1499998,
-    "books_count": 244,
-    "ratings_count": 500442,
-    "text_reviews_count": 33123,
+    "books_count": 245,
+    "ratings_count": 500712,
+    "text_reviews_count": 33140,
     "original_publication_year": 2005,
     "original_publication_month": 4,
-    "original_publication_day": 11,
+    "original_publication_day": 5,
     "average_rating": 3.82,
     "best_book": {
       "id": 6334,
@@ -327,7 +422,7 @@
   {
     "id": 7404751,
     "books_count": 84,
-    "ratings_count": 24515,
+    "ratings_count": 24523,
     "text_reviews_count": 2799,
     "original_publication_year": 2010,
     "original_publication_month": 3,
@@ -345,31 +440,50 @@
     }
   },
   {
-    "id": 3060926,
-    "books_count": 10214,
-    "ratings_count": 3152825,
-    "text_reviews_count": 71949,
-    "original_publication_year": 1813,
+    "id": 16969555,
+    "books_count": 6,
+    "ratings_count": 255,
+    "text_reviews_count": 14,
+    "original_publication_year": 2010,
     "original_publication_month": 1,
-    "original_publication_day": 28,
-    "average_rating": 4.27,
+    "original_publication_day": 1,
+    "average_rating": 4.47,
     "best_book": {
-      "id": 3651168,
+      "id": 12004938,
       "title": "Orgulho e Preconceito",
       "author": {
         "id": 1265,
         "name": "Jane Austen"
       },
-      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
-      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366672097l/12004938._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366672097l/12004938._SY75_.jpg"
     }
   },
-  null,
+  {
+    "id": 18156927,
+    "books_count": 109,
+    "ratings_count": 154553,
+    "text_reviews_count": 17991,
+    "original_publication_year": 2012,
+    "original_publication_month": 3,
+    "original_publication_day": 15,
+    "average_rating": 3.91,
+    "best_book": {
+      "id": 18046699,
+      "title": "A Improvável Jornada de Harold Fry (Harold Fry, #1)",
+      "author": {
+        "id": 5309857,
+        "name": "Rachel Joyce"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370668179l/18046699._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1370668179l/18046699._SX50_.jpg"
+    }
+  },
   {
     "id": 1882981,
-    "books_count": 87,
-    "ratings_count": 90946,
-    "text_reviews_count": 6427,
+    "books_count": 42,
+    "ratings_count": 90968,
+    "text_reviews_count": 6431,
     "original_publication_year": 1999,
     "original_publication_month": "",
     "original_publication_day": "",
@@ -405,11 +519,30 @@
       "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587700096l/25943917._SY75_.jpg"
     }
   },
-  null,
+  {
+    "id": 791346,
+    "books_count": 172,
+    "ratings_count": 18441,
+    "text_reviews_count": 1305,
+    "original_publication_year": 1992,
+    "original_publication_month": "",
+    "original_publication_day": "",
+    "average_rating": 4.04,
+    "best_book": {
+      "id": 6022047,
+      "title": "Doze Contos Peregrinos",
+      "author": {
+        "id": 13450,
+        "name": "Gabriel García Márquez"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1296566492l/6022047._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1296566492l/6022047._SY75_.jpg"
+    }
+  },
   {
     "id": 3011932,
     "books_count": 72,
-    "ratings_count": 13893,
+    "ratings_count": 13897,
     "text_reviews_count": 854,
     "original_publication_year": 2004,
     "original_publication_month": "",
@@ -429,8 +562,8 @@
   {
     "id": 1341235,
     "books_count": 234,
-    "ratings_count": 8290,
-    "text_reviews_count": 454,
+    "ratings_count": 8291,
+    "text_reviews_count": 455,
     "original_publication_year": 1842,
     "original_publication_month": "",
     "original_publication_day": "",
@@ -446,12 +579,31 @@
       "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1343274911l/15770636._SX50_.jpg"
     }
   },
-  null,
+  {
+    "id": 25086415,
+    "books_count": 85,
+    "ratings_count": 49509,
+    "text_reviews_count": 6150,
+    "original_publication_year": 2013,
+    "original_publication_month": 9,
+    "original_publication_day": 23,
+    "average_rating": 4.01,
+    "best_book": {
+      "id": 25644827,
+      "title": "O Caminho Estreito para os Confins do Norte",
+      "author": {
+        "id": 8864,
+        "name": "Richard Flanagan"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433450015l/25644827._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433450015l/25644827._SY75_.jpg"
+    }
+  },
   {
     "id": 2183582,
     "books_count": 60,
-    "ratings_count": 3935,
-    "text_reviews_count": 356,
+    "ratings_count": 3937,
+    "text_reviews_count": 357,
     "original_publication_year": 1991,
     "original_publication_month": 1,
     "original_publication_day": "",
@@ -467,13 +619,51 @@
       "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328392288l/9652091._SY75_.jpg"
     }
   },
-  null,
-  null,
+  {
+    "id": 47950,
+    "books_count": 69,
+    "ratings_count": 40755,
+    "text_reviews_count": 3565,
+    "original_publication_year": 1979,
+    "original_publication_month": "",
+    "original_publication_day": "",
+    "average_rating": 3.98,
+    "best_book": {
+      "id": 34664992,
+      "title": "A Câmara Sangrenta e Outras Histórias",
+      "author": {
+        "id": 27500,
+        "name": "Angela Carter"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490220106l/34664992._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1490220106l/34664992._SY75_.jpg"
+    }
+  },
+  {
+    "id": 14741473,
+    "books_count": 84,
+    "ratings_count": 88490,
+    "text_reviews_count": 8990,
+    "original_publication_year": 2011,
+    "original_publication_month": 4,
+    "original_publication_day": 26,
+    "average_rating": 3.83,
+    "best_book": {
+      "id": 17735898,
+      "title": "Os Irmãos Sisters",
+      "author": {
+        "id": 1041872,
+        "name": "Patrick deWitt"
+      },
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365286191l/17735898._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365286191l/17735898._SX50_.jpg"
+    }
+  },
   {
     "id": 1132275,
-    "books_count": 100,
-    "ratings_count": 25671,
-    "text_reviews_count": 1954,
+    "books_count": 290,
+    "ratings_count": 25686,
+    "text_reviews_count": 1957,
     "original_publication_year": 1958,
     "original_publication_month": 10,
     "original_publication_day": 25,

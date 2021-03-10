@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card, Container, Image, Col, Row, ListGroup } from 'react-bootstrap';
-import livrosTAG from './../Main/livros.json';
+import livrosTAG from '../../database/livros.json';
 import { useParams } from 'react-router-dom';
+import { find } from 'lodash';
+import Utils from '../../utils/index';
 
 /*título do livro,
 - capa,
@@ -13,42 +15,55 @@ import { useParams } from 'react-router-dom';
 - total de avaliações GoodReads.*/
 
 const Details = () => {
-  var { isbn } = useParams();
-  isbn.replace(':', '');
+  const { isbn } = useParams();
+  const [livro, setLivro] = useState({});
+  useEffect(() => {
+    const result = find(livrosTAG.results, (item) => item.isbn === isbn);
+    setLivro(result);
+  });
 
-  const livro = livrosTAG.results.find((item) => (item.isbn = isbn));
-  isbn = 0;
+  const avgTAG = (livro.totalRatings / livro.numRatings).toFixed(2);
   return (
-    <Container fluid>
-      <Card className="text-center">
-        <Card.Header>
-          <h1>{livro.name}</h1>
-        </Card.Header>
+    <Container fluid width="100%">
+      <Card className="text-center bg-info">
+        <Card.Header className="bg-warning display-4">DETALHES</Card.Header>
         <Card.Body>
           <Row>
             <Col>
-              <Image src={livro.cover.url} width="350" />
+              <Image
+                src={livro.cover && livro.cover.url ? livro.cover.url : ''}
+                width="414"
+                className="img-fluid"
+              />
             </Col>
             <Col>
-              <Card.Body
-                style={{
-                  fontFamily: 'verdana, sans-serif',
-                  fontSize: '25px',
-                  textAlign: 'left',
-                }}
-              >
-                <ListGroup variant="flush">
-                  <ListGroup.Item>
-                    Data de Edição: {livro.edition}
-                  </ListGroup.Item>
-                  <ListGroup.Item>Curador: {livro.curator} </ListGroup.Item>
-                  <ListGroup.Item>Páginas: {livro.pages}</ListGroup.Item>
-                  <ListGroup.Item>
-                    Total de Avaliaçõe TAG: {livro.totalRatings}
-                  </ListGroup.Item>
-                  <ListGroup.Item>Total de Avaliaçõe GOODREAD:</ListGroup.Item>
-                </ListGroup>
-              </Card.Body>
+              <ListGroup variant="flush" className="text-center">
+                <ListGroup.Item className="lead">
+                  Título:
+                  <h4>{livro.name}</h4>
+                </ListGroup.Item>
+                <ListGroup.Item className="lead bg-info text-white">
+                  Autor(a):
+                  <h4>{livro.author}</h4>
+                </ListGroup.Item>
+                <ListGroup.Item className="lead">
+                  Data de Edição:
+                  <h4>{livro.edition}</h4>
+                </ListGroup.Item>
+                <ListGroup.Item className="lead">
+                  Curador:<h4>{livro.curator}</h4>
+                </ListGroup.Item>
+                <ListGroup.Item className="lead">
+                  Páginas:<h4>{livro.pages}</h4>
+                </ListGroup.Item>
+                <ListGroup.Item className="lead">
+                  Total de Avaliações TAG:<h4>{livro.totalRatings}</h4>
+                </ListGroup.Item>
+                <ListGroup.Item className="lead">
+                  Total de Avaliações GOODREAD:
+                  <h4>{Utils.findTotalAVG(livro.name)}</h4>
+                </ListGroup.Item>
+              </ListGroup>
             </Col>
           </Row>
         </Card.Body>

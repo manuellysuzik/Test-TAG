@@ -9,11 +9,13 @@ export default class Main extends Component {
   };
 
   async componentDidMount() {
-    this.setState({ loading: false });
+    this.setState({ loading: true });
 
     const { data } = await api.get();
 
     this.setState({ data: data });
+
+    console.log(data);
   }
 
   render() {

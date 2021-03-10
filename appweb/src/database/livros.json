@@ -24,7 +24,7 @@
       "author": "Fiódor Dostoiévski",
       "createdAt": "2017-01-24T13:39:30.147Z",
       "updatedAt": "2017-07-01T00:17:35.086Z",
-      "name": "Duas Narrativas Fantásticas",
+      "name": "Duas Narrativas Fantásticas: A Dócil e O Sonho de Um Homem Ridículo",
       "isbn": "9788573262711",
       "pages": 128,
       "cover": {
@@ -233,7 +233,7 @@
       "author": "Emilio Salgari",
       "createdAt": "2017-01-24T13:31:47.970Z",
       "updatedAt": "2017-06-30T00:36:46.910Z",
-      "name": "Os Tigres de Mompracem",
+      "name": "Os Tigres de Mompracem (Ciclo dos Piratas da Malásia #1)",
       "isbn": "9788573212877",
       "pages": 336,
       "curator": "Javier Naranjo",
@@ -439,7 +439,7 @@
     },
     {
       "objectId": "hpnLBgbUNY",
-      "name": "A Improvável Jornada de Harold Fry",
+      "name": "A Improvável Jornada de Harold Fry (Harold Fry, #1)",
       "isbn": "9788581051659",
       "createdAt": "2017-01-24T13:53:30.438Z",
       "updatedAt": "2017-07-03T00:12:03.910Z",
@@ -477,7 +477,7 @@
     },
     {
       "objectId": "kAe5CjiGE3",
-      "name": "Ainda Estou Aqui",
+      "name": "Ainda estou aqui",
       "isbn": "9788579624162",
       "createdAt": "2017-01-24T14:02:13.702Z",
       "updatedAt": "2017-07-02T06:52:41.999Z",
@@ -516,7 +516,7 @@
     },
     {
       "objectId": "tsxqplFfNc",
-      "name": "Noite do Oráculo",
+      "name": "A Noite do Oráculo",
       "isbn": "8535904980",
       "createdAt": "2017-01-24T13:47:37.797Z",
       "updatedAt": "2017-06-30T15:11:45.092Z",
@@ -573,7 +573,7 @@
     },
     {
       "objectId": "xEB0z6GHn2",
-      "name": "Patrimônio",
+      "name": "Patrimonio. Una storia vera",
       "isbn": "9788535920635",
       "createdAt": "2017-01-24T13:41:27.226Z",
       "updatedAt": "2017-06-28T18:24:56.066Z",
@@ -596,7 +596,7 @@
       "createdAt": "2017-03-06T15:55:03.376Z",
       "updatedAt": "2017-07-03T08:12:45.598Z",
       "author": "Angela Carter",
-      "name": "A Câmara Sangrenta",
+      "name": "A Câmara Sangrenta e Outras Histórias",
       "isbn": "9788583180876",
       "blocked": true,
       "curator": "Marina Colasanti",
@@ -616,7 +616,7 @@
       "updatedAt": "2017-07-03T14:57:44.461Z",
       "author": "Patrick deWitt",
       "blocked": true,
-      "name": "Os irmãos Sisters",
+      "name": "Os Irmãos Sisters",
       "isbn": "9788542209266",
       "curator": "Daniel Galera",
       "cover": {

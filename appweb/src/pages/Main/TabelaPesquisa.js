@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Card, Col, Image, Button } from 'react-bootstrap';
+import { Table, Card, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Utils from '../../utils';
 import livrosTag from '../../database/livros.json';
@@ -66,7 +66,7 @@ const TabelePesquisa = (props) => {
             </Link>
           </Button>
         </td>
-        <td>
+        <td className="align-middle">
           <h4>{item.edition}</h4>
         </td>
       </tr>
@@ -75,7 +75,7 @@ const TabelePesquisa = (props) => {
 
   return (
     <div>
-      <Card>
+      <Card className="table table-hover">
         <Table bordered style={{ backgroundColor: '#D4F1F4' }}>
           <thead>
             <tr>

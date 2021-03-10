@@ -7,6 +7,10 @@ class Utils {
       ? livros[0].average_rating
       : 'Avaliação não encontrada';
   }
+  findTotalAVG(title) {
+    var totalAvg = livrosGR.filter((item) => item.best_book.title === title);
+    return totalAvg.length ? totalAvg[0].ratings_count : 'Não Disponível';
+  }
   sortByAno(anoX, anoY) {
     if (anoX < anoY) {
       return -1;

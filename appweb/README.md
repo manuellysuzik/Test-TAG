@@ -1,9 +1,10 @@
 # RESUMO
 A Aplicação tem como finalidade exibir em uma tabela, ordenada por data de edição em ordem decrescente ( mais recentes primeiro ), uma comparação da média de avaliação registradas pelo aplicativo da TAG e retiradas do site GoodReads (www.goodreads.com) através da API disponibilizada pela mesma. Também é possível redirecionar o usuário para uma página de Detalhes.
 
-Páginas
+# Páginas
 - Home:
-Exibição da tabela / lista de livros com as médias de avaliação da TAG e GoodReads e o título do livro com suas respectivas datas de primeira edição, escolhidas no formato "mês de ano" e ordenadas por datas mais recentes primeiro. Cada item da tabela é composto por um botão de detalhes que redireciona o usuário para uma página com as informações adicionais do livro escolhido.
+
+  Exibição da tabela / lista de livros com as médias de avaliação da TAG e GoodReads e o título do livro com suas respectivas datas de primeira edição, escolhidas no formato "mês de ano" e ordenadas por datas mais recentes primeiro. Cada item da tabela é composto por um botão de detalhes que redireciona o usuário para uma página com as informações adicionais do livro escolhido.
 
 
  # REGRA DE NEGÓCIO
@@ -13,16 +14,16 @@ Exibição da tabela / lista de livros com as médias de avaliação da TAG e Go
     2 . Ao clicar em detalhes, a aplicação envia no endereço o isbn do livro selecionado para ser possível carregar os dados separadamente de cada livro.
 
 - Detalhes:
-Exibição dos detalhes do livro escolhido com as seguintes informações:
+  Exibição dos detalhes do livro escolhido com as seguintes informações:
 
-- título do livro,
-- capa,
-- autor(a),
-- mês/ano edição,
-- curador(a),
-- número de páginas,
-- total de avaliações TAG
-- total de avaliações GoodReads.
+  - título do livro,
+  - capa,
+  - autor(a),
+  - mês/ano edição,
+  - curador(a),
+  - número de páginas,
+  - total de avaliações TAG
+  - total de avaliações GoodReads.
 
 # REGRA DE NEGÓCIO
 

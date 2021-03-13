@@ -9,16 +9,11 @@ class Utils {
     } catch (e) {
       return 'Não disponível';
     }
-
-    /*const livros = livrosGR.filter(
-      (item) => item.best_book.title === title && item.average_rating
-    );*/
-
-    //return livros.length ? livros[0].average_rating : '';
   }
 
   findTotalAVG(title) {
     var totalAvg = livrosGR.filter((item) => item.best_book.title === title);
+
     return totalAvg.length ? totalAvg[0].ratings_count : 'Não Disponível';
   }
   sortByAno(anoX, anoY) {

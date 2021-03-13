@@ -2,27 +2,27 @@
   {
     "id": 16171,
     "books_count": 115,
-    "ratings_count": 239985,
-    "text_reviews_count": 12214,
+    "ratings_count": 240077,
+    "text_reviews_count": 12221,
     "original_publication_year": 2003,
     "original_publication_month": 9,
     "original_publication_day": 16,
     "average_rating": 3.99,
     "best_book": {
-      "id": 14088,
+      "id": 34136725,
       "title": "O Xará",
       "author": {
         "id": 3670,
         "name": "Jhumpa Lahiri"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326935738l/14088._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326935738l/14088._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518699032l/34136725._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518699032l/34136725._SY75_.jpg"
     }
   },
   {
     "id": 7833063,
     "books_count": 10,
-    "ratings_count": 835,
+    "ratings_count": 838,
     "text_reviews_count": 54,
     "original_publication_year": 1877,
     "original_publication_month": "",
@@ -43,94 +43,94 @@
     "id": 87922,
     "books_count": 6,
     "ratings_count": 505,
-    "text_reviews_count": 31,
+    "text_reviews_count": 32,
     "original_publication_year": 1966,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 3.9,
     "best_book": {
-      "id": 91120,
-      "title": "O Casamento",
+      "id": 31452292,
+      "title": "O casamento",
       "author": {
         "id": 52349,
         "name": "Nelson Rodrigues"
       },
-      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
-      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471438014l/31452292._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1471438014l/31452292._SX50_.jpg"
     }
   },
   {
     "id": 4840290,
     "books_count": 1679,
-    "ratings_count": 609185,
-    "text_reviews_count": 18551,
+    "ratings_count": 609571,
+    "text_reviews_count": 18566,
     "original_publication_year": 1922,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 4.04,
     "best_book": {
-      "id": 7384889,
+      "id": 6996356,
       "title": "Sidarta",
       "author": {
         "id": 1113469,
         "name": "Hermann Hesse"
       },
-      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
-      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415092755l/6996356._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415092755l/6996356._SY75_.jpg"
     }
   },
   {
-    "id": 3191491,
-    "books_count": 5,
-    "ratings_count": 331,
-    "text_reviews_count": 14,
-    "original_publication_year": "",
+    "id": 2378764,
+    "books_count": 566,
+    "ratings_count": 3347,
+    "text_reviews_count": 296,
+    "original_publication_year": 1915,
     "original_publication_month": "",
     "original_publication_day": "",
-    "average_rating": 4,
+    "average_rating": 3.85,
     "best_book": {
-      "id": 3159768,
-      "title": "A Semente da Vitória",
+      "id": 32938546,
+      "title": "Vitória",
       "author": {
-        "id": 1245112,
-        "name": "Nuno Cobra"
+        "id": 3345,
+        "name": "Joseph Conrad"
       },
-      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
-      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479479151l/32938546._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1479479151l/32938546._SX50_.jpg"
     }
   },
   {
-    "id": 4640799,
-    "books_count": 837,
-    "ratings_count": 7434072,
-    "text_reviews_count": 117814,
-    "original_publication_year": 1997,
-    "original_publication_month": 6,
-    "original_publication_day": 26,
-    "average_rating": 4.48,
+    "id": 1559207,
+    "books_count": 163,
+    "ratings_count": 110673,
+    "text_reviews_count": 12296,
+    "original_publication_year": 1965,
+    "original_publication_month": "",
+    "original_publication_day": "",
+    "average_rating": 4.29,
     "best_book": {
-      "id": 3,
-      "title": "Harry Potter and the Sorcerer's Stone (Harry Potter #1)",
+      "id": 29885302,
+      "title": "Stoner",
       "author": {
-        "id": 1077326,
-        "name": "J.K. Rowling"
+        "id": 51229,
+        "name": "John  Williams"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460391728l/29885302._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460391728l/29885302._SY75_.jpg"
     }
   },
   {
     "id": 1560878,
-    "books_count": 258,
-    "ratings_count": 39346,
-    "text_reviews_count": 4177,
+    "books_count": 259,
+    "ratings_count": 39384,
+    "text_reviews_count": 4179,
     "original_publication_year": 1946,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 4.07,
     "best_book": {
       "id": 33800458,
-      "title": "Vida e Proezas de Aléxis Zorbás",
+      "title": "Vida e Proezas de Alexis Zorbás",
       "author": {
         "id": 5668,
         "name": "Nikos Kazantzakis"
@@ -141,89 +141,89 @@
   },
   {
     "id": 1612436,
-    "books_count": 6,
-    "ratings_count": 40397,
+    "books_count": 155,
+    "ratings_count": 40423,
     "text_reviews_count": 2161,
     "original_publication_year": 1986,
     "original_publication_month": 8,
     "original_publication_day": 7,
     "average_rating": 4.37,
     "best_book": {
-      "id": 7693203,
-      "title": "O Físico",
+      "id": 11325267,
+      "title": "O Físico: A Epopéia De Um Médico Medieval",
       "author": {
         "id": 2934,
         "name": "Noah Gordon"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1265395989l/7693203._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1265395989l/7693203._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362876204l/11325267._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1362876204l/11325267._SX50_.jpg"
     }
   },
   {
     "id": 2305040,
     "books_count": 77,
-    "ratings_count": 20368,
-    "text_reviews_count": 910,
+    "ratings_count": 20379,
+    "text_reviews_count": 911,
     "original_publication_year": 1993,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 3.76,
     "best_book": {
-      "id": 30512,
+      "id": 20983321,
       "title": "Paddy Clarke Ha Ha Ha",
       "author": {
         "id": 10108,
         "name": "Roddy Doyle"
       },
-      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
-      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393971192l/20983321._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1393971192l/20983321._SX50_.jpg"
     }
   },
   {
-    "id": 1412280,
-    "books_count": 98,
-    "ratings_count": 112327,
-    "text_reviews_count": 8907,
-    "original_publication_year": 2007,
-    "original_publication_month": 2,
-    "original_publication_day": 13,
-    "average_rating": 3.84,
+    "id": 3355573,
+    "books_count": 93,
+    "ratings_count": 742432,
+    "text_reviews_count": 46852,
+    "original_publication_year": 2006,
+    "original_publication_month": 9,
+    "original_publication_day": 26,
+    "average_rating": 3.97,
     "best_book": {
-      "id": 2772872,
-      "title": "A Estrada da Noite",
+      "id": 6353834,
+      "title": "A Estrada",
       "author": {
-        "id": 88506,
-        "name": "Joe Hill"
+        "id": 4178,
+        "name": "Cormac McCarthy"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358258636l/2772872._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358258636l/2772872._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417310476l/6353834._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417310476l/6353834._SY75_.jpg"
     }
   },
   {
     "id": 17050648,
     "books_count": 47,
-    "ratings_count": 2940,
+    "ratings_count": 2939,
     "text_reviews_count": 359,
     "original_publication_year": 1996,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 3.99,
     "best_book": {
-      "id": 15939955,
-      "title": "Aprender a Viver",
+      "id": 41209358,
+      "title": "Aprender a viver",
       "author": {
         "id": 300215,
         "name": "Luc Ferry"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346429984l/15939955._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1346429984l/15939955._SX50_.jpg"
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
     }
   },
   {
     "id": 1527624,
     "books_count": 39,
-    "ratings_count": 2152,
-    "text_reviews_count": 230,
+    "ratings_count": 2155,
+    "text_reviews_count": 231,
     "original_publication_year": 2003,
     "original_publication_month": "",
     "original_publication_day": "",
@@ -242,47 +242,47 @@
   {
     "id": 2059288,
     "books_count": 254,
-    "ratings_count": 2838,
+    "ratings_count": 2841,
     "text_reviews_count": 115,
     "original_publication_year": 1883,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 3.81,
     "best_book": {
-      "id": 15601731,
-      "title": "Os Tigres de Mompracem (Ciclo dos Piratas da Malásia #1)",
+      "id": 43626315,
+      "title": "Os Tigres de Mompracem",
       "author": {
         "id": 44810,
         "name": "Emilio Salgari"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606541829l/15601731._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1606541829l/15601731._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548014759l/43626315._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1548014759l/43626315._SX50_.jpg"
     }
   },
   {
     "id": 1064574,
     "books_count": 199,
-    "ratings_count": 20177,
-    "text_reviews_count": 1686,
+    "ratings_count": 20189,
+    "text_reviews_count": 1689,
     "original_publication_year": 1951,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 4.25,
     "best_book": {
-      "id": 16102279,
+      "id": 26499429,
       "title": "Memórias de Adriano",
       "author": {
         "id": 7732,
         "name": "Marguerite Yourcenar"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587061765l/16102279._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587061765l/16102279._SX50_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485436401l/26499429._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1485436401l/26499429._SY75_.jpg"
     }
   },
   {
     "id": 87973,
     "books_count": 9,
-    "ratings_count": 1458,
+    "ratings_count": 1459,
     "text_reviews_count": 53,
     "original_publication_year": 1956,
     "original_publication_month": "",
@@ -302,21 +302,21 @@
   {
     "id": 3389674,
     "books_count": 288,
-    "ratings_count": 443103,
-    "text_reviews_count": 23869,
+    "ratings_count": 443763,
+    "text_reviews_count": 23907,
     "original_publication_year": 1946,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 4.35,
     "best_book": {
-      "id": 16114257,
-      "title": "O Homem em Busca de um Sentido",
+      "id": 22454622,
+      "title": "Em Busca de Sentido: Um Psicólogo no Campo de Concentração",
       "author": {
         "id": 2782,
         "name": "Viktor E. Frankl"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351447298l/16114257._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351447298l/16114257._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402456561l/22454622._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1402456561l/22454622._SY75_.jpg"
     }
   },
   {
@@ -329,41 +329,41 @@
     "original_publication_day": "",
     "average_rating": 3.77,
     "best_book": {
-      "id": 7389389,
-      "title": "O Seminarista",
+      "id": 42189719,
+      "title": "Seminarista, O",
       "author": {
         "id": 99606,
         "name": "Rubem Fonseca"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451875674l/7389389._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451875674l/7389389._SY75_.jpg"
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
     }
   },
   {
     "id": 1028281,
-    "books_count": 2,
-    "ratings_count": 59097,
-    "text_reviews_count": 2113,
+    "books_count": 443,
+    "ratings_count": 59134,
+    "text_reviews_count": 2117,
     "original_publication_year": 1830,
     "original_publication_month": 11,
     "original_publication_day": 13,
     "average_rating": 3.88,
     "best_book": {
-      "id": 3436408,
+      "id": 30902448,
       "title": "O Vermelho e o Negro",
       "author": {
         "id": 1481537,
         "name": "Stendhal"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1350399365l/3436408._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1350399365l/3436408._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468606477l/30902448._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1468606477l/30902448._SY75_.jpg"
     }
   },
   {
     "id": 40842571,
     "books_count": 90,
-    "ratings_count": 70762,
-    "text_reviews_count": 6729,
+    "ratings_count": 70786,
+    "text_reviews_count": 6733,
     "original_publication_year": 2014,
     "original_publication_month": 9,
     "original_publication_day": 2,
@@ -380,90 +380,90 @@
     }
   },
   {
-    "id": 57566471,
-    "books_count": 108,
-    "ratings_count": 207928,
-    "text_reviews_count": 19003,
-    "original_publication_year": 2018,
-    "original_publication_month": 5,
-    "original_publication_day": 22,
-    "average_rating": 3.98,
+    "id": 1121143,
+    "books_count": 201,
+    "ratings_count": 5056,
+    "text_reviews_count": 397,
+    "original_publication_year": 1948,
+    "original_publication_month": 9,
+    "original_publication_day": 27,
+    "average_rating": 3.76,
     "best_book": {
-      "id": 46271401,
+      "id": 15738230,
       "title": "O Intruso",
       "author": {
-        "id": 3389,
-        "name": "Stephen King"
+        "id": 3535,
+        "name": "William Faulkner"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560359106l/46271401._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1560359106l/46271401._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451518090l/15738230._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451518090l/15738230._SY75_.jpg"
     }
   },
   {
-    "id": 1499998,
-    "books_count": 245,
-    "ratings_count": 500712,
-    "text_reviews_count": 33140,
-    "original_publication_year": 2005,
-    "original_publication_month": 4,
-    "original_publication_day": 5,
-    "average_rating": 3.82,
+    "id": 2701142,
+    "books_count": 164,
+    "ratings_count": 41415,
+    "text_reviews_count": 3674,
+    "original_publication_year": 2002,
+    "original_publication_month": "",
+    "original_publication_day": "",
+    "average_rating": 3.59,
     "best_book": {
-      "id": 6334,
-      "title": "Never Let Me Go",
+      "id": 1269958,
+      "title": "Neve",
       "author": {
-        "id": 4280,
-        "name": "Kazuo Ishiguro"
+        "id": 1728,
+        "name": "Orhan Pamuk"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353048590l/6334._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1353048590l/6334._SY75_.jpg"
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
     }
   },
   {
     "id": 7404751,
     "books_count": 84,
-    "ratings_count": 24523,
+    "ratings_count": 24528,
     "text_reviews_count": 2799,
     "original_publication_year": 2010,
     "original_publication_month": 3,
     "original_publication_day": 18,
     "average_rating": 3.26,
     "best_book": {
-      "id": 7140754,
+      "id": 9528252,
       "title": "Solar",
       "author": {
         "id": 2408,
         "name": "Ian McEwan"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320510358l/7140754._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1320510358l/7140754._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287341416l/9528252._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1287341416l/9528252._SY75_.jpg"
     }
   },
   {
-    "id": 16969555,
-    "books_count": 6,
-    "ratings_count": 255,
-    "text_reviews_count": 14,
-    "original_publication_year": 2010,
+    "id": 3060926,
+    "books_count": 10234,
+    "ratings_count": 3156713,
+    "text_reviews_count": 72117,
+    "original_publication_year": 1813,
     "original_publication_month": 1,
-    "original_publication_day": 1,
-    "average_rating": 4.47,
+    "original_publication_day": 28,
+    "average_rating": 4.27,
     "best_book": {
-      "id": 12004938,
+      "id": 13410610,
       "title": "Orgulho e Preconceito",
       "author": {
         "id": 1265,
         "name": "Jane Austen"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366672097l/12004938._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1366672097l/12004938._SY75_.jpg"
+      "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+      "small_image_url": "https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png"
     }
   },
   {
     "id": 18156927,
     "books_count": 109,
-    "ratings_count": 154553,
-    "text_reviews_count": 17991,
+    "ratings_count": 154643,
+    "text_reviews_count": 18003,
     "original_publication_year": 2012,
     "original_publication_month": 3,
     "original_publication_day": 15,
@@ -481,9 +481,9 @@
   },
   {
     "id": 1882981,
-    "books_count": 42,
-    "ratings_count": 90968,
-    "text_reviews_count": 6431,
+    "books_count": 169,
+    "ratings_count": 91007,
+    "text_reviews_count": 6439,
     "original_publication_year": 1999,
     "original_publication_month": "",
     "original_publication_day": "",
@@ -502,12 +502,12 @@
   {
     "id": 45843352,
     "books_count": 2,
-    "ratings_count": 483,
+    "ratings_count": 484,
     "text_reviews_count": 48,
     "original_publication_year": 2015,
     "original_publication_month": 8,
     "original_publication_day": 15,
-    "average_rating": 4.27,
+    "average_rating": 4.26,
     "best_book": {
       "id": 25943917,
       "title": "Ainda estou aqui",
@@ -522,35 +522,35 @@
   {
     "id": 791346,
     "books_count": 172,
-    "ratings_count": 18441,
-    "text_reviews_count": 1305,
+    "ratings_count": 18456,
+    "text_reviews_count": 1307,
     "original_publication_year": 1992,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 4.04,
     "best_book": {
-      "id": 6022047,
-      "title": "Doze Contos Peregrinos",
+      "id": 25925033,
+      "title": "Doze contos peregrinos",
       "author": {
         "id": 13450,
         "name": "Gabriel García Márquez"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1296566492l/6022047._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1296566492l/6022047._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437113586l/25925033._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1437113586l/25925033._SY75_.jpg"
     }
   },
   {
     "id": 3011932,
     "books_count": 72,
-    "ratings_count": 13897,
+    "ratings_count": 13899,
     "text_reviews_count": 854,
     "original_publication_year": 2004,
     "original_publication_month": "",
     "original_publication_day": "",
     "average_rating": 3.79,
     "best_book": {
-      "id": 8891900,
-      "title": "A Noite do Oráculo",
+      "id": 5901821,
+      "title": "Noite do Oráculo",
       "author": {
         "id": 296961,
         "name": "Paul Auster"
@@ -562,7 +562,7 @@
   {
     "id": 1341235,
     "books_count": 234,
-    "ratings_count": 8291,
+    "ratings_count": 8294,
     "text_reviews_count": 455,
     "original_publication_year": 1842,
     "original_publication_month": "",
@@ -581,9 +581,9 @@
   },
   {
     "id": 25086415,
-    "books_count": 85,
-    "ratings_count": 49509,
-    "text_reviews_count": 6150,
+    "books_count": 7,
+    "ratings_count": 49521,
+    "text_reviews_count": 6151,
     "original_publication_year": 2013,
     "original_publication_month": 9,
     "original_publication_day": 23,
@@ -602,28 +602,28 @@
   {
     "id": 2183582,
     "books_count": 60,
-    "ratings_count": 3937,
+    "ratings_count": 3940,
     "text_reviews_count": 357,
     "original_publication_year": 1991,
     "original_publication_month": 1,
     "original_publication_day": "",
     "average_rating": 4.19,
     "best_book": {
-      "id": 9652091,
-      "title": "Patrimonio. Una storia vera",
+      "id": 13597785,
+      "title": "Patrimônio: Uma História Verídica",
       "author": {
         "id": 463,
         "name": "Philip Roth"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328392288l/9652091._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328392288l/9652091._SY75_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372158653l/13597785._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372158653l/13597785._SX50_.jpg"
     }
   },
   {
     "id": 47950,
     "books_count": 69,
-    "ratings_count": 40755,
-    "text_reviews_count": 3565,
+    "ratings_count": 40794,
+    "text_reviews_count": 3568,
     "original_publication_year": 1979,
     "original_publication_month": "",
     "original_publication_day": "",
@@ -642,61 +642,41 @@
   {
     "id": 14741473,
     "books_count": 84,
-    "ratings_count": 88490,
-    "text_reviews_count": 8990,
+    "ratings_count": 88546,
+    "text_reviews_count": 8992,
     "original_publication_year": 2011,
     "original_publication_month": 4,
     "original_publication_day": 26,
     "average_rating": 3.83,
     "best_book": {
-      "id": 17735898,
-      "title": "Os Irmãos Sisters",
+      "id": 34814134,
+      "title": "Os Irmãos Sister",
       "author": {
         "id": 1041872,
         "name": "Patrick deWitt"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365286191l/17735898._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365286191l/17735898._SX50_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491518823l/34814134._SX98_SY160_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1491518823l/34814134._SX50_SY75_.jpg"
     }
   },
   {
     "id": 1132275,
     "books_count": 290,
-    "ratings_count": 25686,
-    "text_reviews_count": 1957,
+    "ratings_count": 25712,
+    "text_reviews_count": 1959,
     "original_publication_year": 1958,
     "original_publication_month": 10,
     "original_publication_day": 25,
     "average_rating": 4.01,
     "best_book": {
-      "id": 6521517,
+      "id": 35121518,
       "title": "O Leopardo",
       "author": {
         "id": 8407795,
         "name": "Giuseppe Tomasi di Lampedusa"
       },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401755707l/6521517._SY160_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1401755707l/6521517._SY75_.jpg"
-    }
-  },
-  {
-    "id": 17121808,
-    "books_count": 56,
-    "ratings_count": 6802,
-    "text_reviews_count": 524,
-    "original_publication_year": 2011,
-    "original_publication_month": 9,
-    "original_publication_day": 1,
-    "average_rating": 4.1,
-    "best_book": {
-      "id": 12151198,
-      "title": "Limonov",
-      "author": {
-        "id": 184425,
-        "name": "Emmanuel Carrère"
-      },
-      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328041167l/12151198._SX98_.jpg",
-      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328041167l/12151198._SX50_.jpg"
+      "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494610543l/35121518._SX98_.jpg",
+      "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1494610543l/35121518._SX50_.jpg"
     }
   }
 ]

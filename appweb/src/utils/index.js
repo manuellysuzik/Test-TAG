@@ -1,12 +1,22 @@
 import livrosGR from '../../src/database/livrosGR.json';
+import _ from 'lodash';
 
 class Utils {
-  findAVG(title) {
-    const livros = livrosGR.filter((item) => item.best_book.title === title);
-    return livros.length
-      ? livros[0].average_rating
-      : 'Avaliação não encontrada';
+  findAVG(idx) {
+    try {
+      const valor = livrosGR[idx].average_rating;
+      return valor;
+    } catch (e) {
+      return 'Não disponível';
+    }
+
+    /*const livros = livrosGR.filter(
+      (item) => item.best_book.title === title && item.average_rating
+    );*/
+
+    //return livros.length ? livros[0].average_rating : '';
   }
+
   findTotalAVG(title) {
     var totalAvg = livrosGR.filter((item) => item.best_book.title === title);
     return totalAvg.length ? totalAvg[0].ratings_count : 'Não Disponível';
@@ -32,5 +42,4 @@ class Utils {
     return 1;
   }
 }
-
 export default new Utils();

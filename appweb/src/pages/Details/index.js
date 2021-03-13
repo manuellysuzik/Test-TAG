@@ -4,6 +4,7 @@ import livrosTAG from '../../database/livros.json';
 import { useParams } from 'react-router-dom';
 import { find } from 'lodash';
 import Utils from '../../utils/index';
+import { BsFillCalendarFill } from 'react-icons/bs';
 
 /*título do livro,
 - capa,
@@ -22,7 +23,6 @@ const Details = () => {
     setLivro(result);
   });
 
-  const avgTAG = (livro.totalRatings / livro.numRatings).toFixed(2);
   return (
     <Container fluid width="100%">
       <Card className="text-center bg-info">
@@ -47,8 +47,11 @@ const Details = () => {
                   <h4>{livro.author}</h4>
                 </ListGroup.Item>
                 <ListGroup.Item className="lead">
-                  Data de Edição:
-                  <h4>{livro.edition}</h4>
+                  <div>
+                    <BsFillCalendarFill className="float-start" />
+                    Data de Edição:
+                    <h4>{livro.edition}</h4>
+                  </div>
                 </ListGroup.Item>
                 <ListGroup.Item className="lead">
                   Curador:<h4>{livro.curator}</h4>

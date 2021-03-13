@@ -1,8 +1,10 @@
-import React from 'react';
+/* eslint-disable prettier/prettier */
+import React, { useEffect, useState } from 'react';
 import { Table, Card, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Utils from '../../utils';
 import livrosTag from '../../database/livros.json';
+import livrosGR from '../../database/livrosGR.json';
 import { FaBookmark, FaBookOpen, FaAddressBook } from 'react-icons/fa';
 
 const meses = {
@@ -30,16 +32,16 @@ const livrosOrdenados = livrosTag.results.sort((itemY, itemX) => {
     : resultAno;
 });
 
-const TabelePesquisa = (props) => {
+const TabelaPesquisa = (props) => {
   const dadosTabela = {
-    title: livrosOrdenados.map((item, idx) => (
+    table: livrosOrdenados.map((item, idx) => (
       <tr key={idx}>
         <td key={idx}>
           <div className="mb-1">
             <Col className="font-weight-bolder text-left">
               <h3>
                 <FaAddressBook size="2em" color="#ff9e16" />
-                {`Título: ${item.name}`}
+                {`Titulo:${item.name}`}
               </h3>
               <br />
               <h3>
@@ -49,10 +51,9 @@ const TabelePesquisa = (props) => {
                 ).toFixed(2)}`}
               </h3>
               <br />
-
               <h3>
                 <FaBookOpen size="2em" color="#ff9e16" />
-                {` Avaliação GOODREADS : ${Utils.findAVG(item.name)}`}
+                {` Avaliação GOODREADS:${Utils.findAVG(idx)}`}
               </h3>
             </Col>
           </div>
@@ -72,7 +73,6 @@ const TabelePesquisa = (props) => {
       </tr>
     )),
   };
-
   return (
     <div>
       <Card className="table table-hover">
@@ -83,11 +83,11 @@ const TabelePesquisa = (props) => {
               <th>Data de Publicação</th>
             </tr>
           </thead>
-          <tbody>{dadosTabela.title}</tbody>
+          <tbody>{dadosTabela.table}</tbody>
         </Table>
       </Card>
     </div>
   );
 };
 
-export default TabelePesquisa;
+export default TabelaPesquisa;

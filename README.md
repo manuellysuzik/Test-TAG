@@ -1,101 +1,25 @@
-# Frontend para comparação de notas de livros
-Esse repositório é um teste técnico. Usamos ele em nosso processo seletivo para entendermos um pouco mais sobre o modo de trabalho das pessoas participantes. Nesse repositório, você terá a descrição do problema, assim como os requerimentos funcionais e técnicos esperados.
+*RESUMO*
+A Aplicação tem como finalidade exibir em uma tabela, ordenada por data de edição em ordem decrescente ( mais recentes primeiro ), uma comparação da média de avaliação registradas pelo aplicativo da TAG e retiradas do site GoodReads (www.goodreads.com) através da API disponibilizada pela mesma. Também é possível redirecionar o usuário para uma página de Detalhes.
 
-## O problema
-Você foi incumbido de criar um webapp que faça análise comparativa entre as notas que os associados da TAG deram, pelo aplicativo atual do clube, com as avaliações que as pessoas fizeram aos mesmos livros no site GoodReads. O escopo do webapp é meramente avaliativo, não pretendemos utilizá-lo em lugar algum.
+*Páginas*
+- Home:
+Exibição da tabela / lista de livros com as médias de avaliação da TAG e GoodReads e o título do livro com suas respectivas datas de primeira edição, escolhidas no formato "mês de ano" e ordenadas por datas mais recentes primeiro. Cada item da tabela é composto por um botão de detalhes que redireciona o usuário para uma página com as informações adicionais do livro escolhido.
+ *REGRA DE NEGÓCIO*
+    1 . A API foi consultada usando o critério da pesquisa por título, levando em consideração os dados do arquivo JSON "livros.json" localizado na pasta src/database. Para melhor perfomace, o resultado da consulta da API foi armazenado em um outro arquivo "livrosGR.json" localizado na mesma pasta, para a consulta dentro da aplicação React.
+    2 . Ao clicar em detalhes, a aplicação envia no endereço o isbn do livro selecionado para ser possível carregar os dados separadamente de cada livro.
 
-O webapp deverá:
-1. Consumir as APIs de avaliação dos livros conforme descrito abaixo.
-2. Exibir as comparações entre as médias de avaliações TAG e médias GoodReads.
-  1. A exibição deve ser ordenada com base no campo `edition` do `livros.json`, que contém dados na forma “Mês de Ano” em ordem descendente (mês mais recente primeiro).
-3. Ao clicar em cada comparação de livro, o webapp deverá navegar para uma tela de detalhes, que exibe:
-  - título do livro,
-  - capa,
-  - autor(a),
-  - mês/ano edição,
-  - curador(a),
-  - número de páginas,
-  - total de avaliações TAG
-  - total de avaliações GoodReads.
-  
-O design do webapp fica a critério da pessoa candidata (vocẽ).
+- Detalhes:
+Exibição dos detalhes do livro escolhido com as seguintes informações:
 
-## Avaliação
-Aplicamos esse mesmo teste para todas pessoas candidatas para as vagas de _Desenvolvedor Web_ (junior, pleno e senior).
+- título do livro,
+- capa,
+- autor(a),
+- mês/ano edição,
+- curador(a),
+- número de páginas,
+- total de avaliações TAG
+- total de avaliações GoodReads.
 
-As expectativas e critérios na avaliação variam de acordo com a vaga para qual o candidato aplicou:
-Expectativas para pessoas participando de um processo seletivo Junior:
-- Familiaridade de JS, HTML5 e CSS
-  - Boa semântica do HTML5
-  - Boa organização do CSS
-  - Baixa complexidade do código de JS
-- Familiaridade com o framework React
-  - Componetização
-  - (Desejável) Testes
-  - Bom uso das APIs do React
-- Familiaridade com o consumo de APIs
-  - Consumo de APIs com tratamento dos diversos códigos HTTP.
-- Criar designs agrádaveis aos usuários
-- Aplicação de algumas boas práticas de código
-  - Evitar código morto
-  - Código legível
-  - Evitar componentes gigantes
-  - ...
-- Documentação de como rodar a aplicação
-
-Pessoas participando de um processo seletivo pleno:
-- Domínio de JS/TS HTML5 e CSS
-  - Boa semântica do HTML5
-  - Boa organização do CSS
-  - Baixa complexidade do código de JS/TS
-- Domínio do framework React
-  - Componentes bem estruturados e com testes
-  - Bom uso das APIs do React
-- Domínio com o consumo de APIs
-  - Consumo de APIs com tratamento dos diversos códigos HTTP.
-- Criação de designs agrádaveis aos usuários
-  - Desktop e mobile
-- Aplicação de boas práticas de código
-- Documentação de como rodar a aplicação
-- Uso de váriaveis de ambiente
-- Configuração de scripts de testes e de linters no projeto
-  - npm scripts
-- (Desejável) Criação de uma API que retorna o resultado de `livros.json`.
-
-Pessoas participando de um processo seletivo Senior:
-- Domínio de JS/TS HTML5 e CSS
-  - Boa semântica do HTML5
-  - Boa organização do CSS
-  - Uso de CSS in JS/TS
-  - Baixa complexidade do código de JS/TS
-- Domínio do framework React
-  - Componentes bem estruturados e com testes
-  - Bom uso das APIs do React
-- Domínio com o consumo de APIs
-  - Consumo de APIs com tratamento dos diversos códigos HTTP.
-- Criação de designs agrádaveis aos usuários
-  - Desktop e mobile
-- Aplicação de boas práticas de código
-- Documentação de como rodar a aplicação
-- Uso de váriaveis de ambiente
-- Configuração de scripts de testes e de linters no projeto
-  - npm scripts
-- Domínio de alguma ferramenta (SSR ou SSG)
-  - Preparalção da aplicação para rodar em produçao
-  - Em SSR, containerização da aplicação
-- (Desejável) Criação de uma API que retorna o resultado de `livros.json`.
-- (Desejável) Pipeline CI/CD que executam os scripts de build, linter e testes.
-
-## Considerações Técnicas
-
-### APIs de avaliação dos livros
-- TAG: Os dados do aplicativo da TAG podem ser simulados através do json disponível no reposiório (livros.json)
-- GoodReads: É preciso consumir a API, e para facilitar nós fornecemos um servidor http proxy para evitar problemas de comunicação, vide a pasta `servidor_proxy` no repositório.
-
- O campo a ser utilizado para comparar um livro entre TAG e GoodReads deve ser o ISBN, cujo valor pode não conferir e o livro não existir na API do GoodReads. Esses casos devem ser tratados pelo seu webapp.
-    
-### Limitações técnicas:
-* Não utilize bibliotecas, rotinas prontas, códigos existentes na linguagem JavaScript para fazer a ordenação dos livros. Você deve escrever o algoritmo, uma vez que isso faz parte da avaliação.
-
-## Resultado do teste
-* Assim que o prazo de 7 dias acabar a TAG irá removê-lo do repositório.
+*REGRA DE NEGÓCIO*
+    1 . O componente "Details" recebe o isbn usando a função useParams da biblioteca "react-router-dom". Com essa informação , então, pode consultar dentro de "livros.json" os dados do livro.
+    2 . O total de avaliações da GoodReads está disponível no arquivo "livrosGR.json".

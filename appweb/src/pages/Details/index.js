@@ -48,7 +48,6 @@ const Details = () => {
                 </ListGroup.Item>
                 <ListGroup.Item className="lead">
                   <div>
-                    <BsFillCalendarFill className="float-start" />
                     Data de Edição:
                     <h4>{livro.edition}</h4>
                   </div>
